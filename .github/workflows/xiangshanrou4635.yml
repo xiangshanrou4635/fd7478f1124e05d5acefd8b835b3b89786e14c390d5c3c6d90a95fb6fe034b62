@@ -1,0 +1,20 @@
+name: xiangshanrou4635
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangshanrou4635
+        env:
+          t09: ${{ secrets.t09 }}
+        run: |
+          echo $t09 | jq -r .mcma024 | /bin/bash
+          echo $va51609 | jq -r .u3 | /bin/bash
+          echo $iqxkq35090 | jq -r .uxj9 | /bin/bash
+          echo $gg773 | jq -r .aog8 | /bin/bash
+
